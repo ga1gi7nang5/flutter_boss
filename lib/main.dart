@@ -10,6 +10,7 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Boss直聘',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primaryIconTheme: const IconThemeData(color: Colors.white),
         brightness: Brightness.light,

@@ -35,8 +35,8 @@ class _HomePageState extends State<HomePage> {
   BottomNavigationBarItem _buildItem({String icon, LayoutType layoutSelection}) {
     String text = layoutName(layoutSelection);
     return BottomNavigationBarItem(
-      icon: Image.asset(icon, width: 35.0, height: 35.0,),
-      title: Text(text, style: TextStyle(color: _colorTabMatching(layoutSelection: layoutSelection)),)
+      icon: Image.asset(icon, width: 30.0, height: 30.0,),
+      title: Text(text, style: TextStyle(color: _colorTabMatching(layoutSelection: layoutSelection), fontSize: 12.0),)
     );
   }
 
